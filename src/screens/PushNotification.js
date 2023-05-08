@@ -22,7 +22,7 @@ messaging().getToken().then((fcmToken)=>{
     }else {console.log("Not Authorization status",authStatus)}
    
   }, []);
-  console.log("qq",drawerAnimationStyle);
+  // console.log("qq",drawerAnimationStyle);
   return (
     <Animated.View style={{ flex: 1,
       ...drawerAnimationStyle,
